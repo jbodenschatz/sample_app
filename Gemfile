@@ -11,6 +11,10 @@ group :development, :test do
   gem 'sqlite3', '1.3.5'
 end
 
+group :development do
+  gem 'annotate', '2.5.0'
+end
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
